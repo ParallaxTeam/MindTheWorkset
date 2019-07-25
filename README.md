@@ -1,9 +1,6 @@
 <h1 align="center">
   <br>
   <img src="https://github.com/johnpierson/MindTheWorkset/blob/master/_resources/mtw.jpg" alt="MindTheWorkset" width="200">
-  <br>
-  Mind The Workset
-  <br>
 
 </h1>
 <h4 align="center">A custom Revit add-in to remind users of the workset they are on.</h4>
