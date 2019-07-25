@@ -6,10 +6,10 @@
 <h4 align="center">A custom Revit add-in to remind users of the workset they are on.</h4>
 
 ## Price
-This app is provided "as-is" for free and open source. This is made possible thanks to Parallax Team's commitment to sharing knowledge. There is an installer available in releases, but this project is very much "use at your own risk", please pay attention to the [license](#license) below.
+This app is provided "as-is" for free and open source. This is made possible thanks to Parallax Team's commitment to sharing knowledge. There is an installer available in [releases](https://github.com/johnpierson/MindTheWorkset/releases), but this project is very much "use at your own risk", please pay attention to the [license](#license) below.
 
 ## Usage
-After installing the application, it will just run any time Revit is open. The only times it will alert the user are as follows:
+After installing the application from the [releases](https://github.com/johnpierson/MindTheWorkset/releases) section, it will just run any time Revit is open. The only times it will alert the user are as follows:
 1. When Opening a workshared document
 2. When synchronize with central is complete.
 
