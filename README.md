@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://github.com/johnpierson/MindTheWorkset/blob/master/_resources/mtw.png" alt="MindTheWorkset" width="200">
+  <img src="https://github.com/johnpierson/MindTheWorkset/blob/master/_resources/mtw.jpg" alt="MindTheWorkset" width="200">
   <br>
   Mind The Workset
   <br>
