@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+
+  <AddIn Type="Application">
+    <Name>MindTheWorkset</Name>
+    <Assembly>MindTheWorkset.dll</Assembly>
+    <FullClassName>MindTheWorkset.App</FullClassName>
+    <ClientId>7141a867-348e-4219-9296-524f68f17b48</ClientId>
+    <VendorId>Parallax Team Freebies</VendorId>
+    <VendorDescription>Parallax Team Inc., http://parallaxteam.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
