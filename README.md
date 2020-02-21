@@ -20,8 +20,3 @@ After installing the application from the [releases](https://github.com/johnpier
 
 ## License
 This project is licensed under the [GNU Lesser General Public License v3 (LGPL-3.0)](https://github.com/johnpierson/MindTheWorkset/blob/master/LICENSE). By using this project you agree to the terms and conditions of the license. A simplified summary of this license is available at [TLDRLegal](https://tldrlegal.com/license/gnu-lesser-general-public-license-v3-(lgpl-3)).
-
-## 3.50
- _If you feel so inclined, here is a method to donate to this open source project_
-
- <a href="https://www.buymeacoffee.com/j0hnp" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
