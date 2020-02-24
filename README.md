@@ -19,4 +19,4 @@ After installing the application from the [releases](https://github.com/johnpier
 <img src="https://github.com/johnpierson/MindTheWorkset/blob/master/_resources/mtwusage.gif" alt="MindTheWorkset" width="800">
 
 ## License
-This project is licensed under the [GNU Lesser General Public License v3 (LGPL-3.0)](https://github.com/johnpierson/MindTheWorkset/blob/master/LICENSE). By using this project you agree to the terms and conditions of the license. A simplified summary of this license is available at [TLDRLegal](https://tldrlegal.com/license/gnu-lesser-general-public-license-v3-(lgpl-3)).
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
