@@ -5,6 +5,13 @@
 </h1>
 <h4 align="center">A custom Revit add-in to remind users of the workset they are on.</h4>
 
+<p align="center">
+  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+   <img src="https://forthebadge.com/images/badges/cc-nc-sa.svg">
+  </a>
+</p>
+---
+
 ## Credits
 Credit for this idea goes to [Purvi Irwin](https://twitter.com/BIMchiq).
 
