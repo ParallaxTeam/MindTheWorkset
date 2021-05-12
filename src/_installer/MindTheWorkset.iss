@@ -1,5 +1,5 @@
 #define MyAppName "Freebies - Mind The Workset"
-#define MyAppVersion "1.0.0"
+#define MyAppVersion "1.1.0"
 #define MyAppPublisher "ParallaxTeam"
 #define MyAppURL "https://github.com/johnpierson/MindTheWorkset"
 
@@ -9,6 +9,8 @@
 #define RevitAddin18  RevitAddinFolder+"\2018\"
 #define RevitAddin19  RevitAddinFolder+"\2019\"
 #define RevitAddin20  RevitAddinFolder+"\2020\"
+#define RevitAddin21  RevitAddinFolder+"\2021\"
+#define RevitAddin22  RevitAddinFolder+"\2022\"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
@@ -42,11 +44,13 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: revit18; Description: Mind the Workset for Autodesk Revit 2018;  Types: full
 Name: revit19; Description: Mind the Workset for Autodesk Revit 2019;  Types: full
 Name: revit20; Description: Mind the Workset for Autodesk Revit 2020;  Types: full
+Name: revit21; Description: Mind the Workset for Autodesk Revit 2021;  Types: full       
+Name: revit22; Description: Mind the Workset for Autodesk Revit 2022;  Types: full
 
 [Files]
 
 ;REVIT 2018 ~~~~~~~~~~~~~~~~~~~
-Source: "deploy\2018\*"; DestDir: "{#RevitAddin19}"; Excludes: "*.pdb,*.xml,*.config,*.addin,*.tmp"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: revit18 
+Source: "deploy\2018\*"; DestDir: "{#RevitAddin18}"; Excludes: "*.pdb,*.xml,*.config,*.addin,*.tmp"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: revit18 
 Source: "deploy\{#RevitAppName}.addin"; DestDir: "{#RevitAddin18}"; Flags: ignoreversion; Components: revit18
 
 ;REVIT 2019 ~~~~~~~~~~~~~~~~~~~
@@ -55,6 +59,14 @@ Source: "deploy\{#RevitAppName}.addin"; DestDir: "{#RevitAddin19}"; Flags: ignor
 
 ;REVIT 2020 ~~~~~~~~~~~~~~~~~~~
 Source: "deploy\2020\*"; DestDir: "{#RevitAddin20}"; Excludes: "*.pdb,*.xml,*.config,*.addin,*.tmp"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: revit20
-Source: "deploy\{#RevitAppName}.addin"; DestDir: "{#RevitAddin20}"; Flags: ignoreversion; Components: revit19
+Source: "deploy\{#RevitAppName}.addin"; DestDir: "{#RevitAddin20}"; Flags: ignoreversion; Components: revit20
+
+;REVIT 2021 ~~~~~~~~~~~~~~~~~~~
+Source: "deploy\2021\*"; DestDir: "{#RevitAddin21}"; Excludes: "*.pdb,*.xml,*.config,*.addin,*.tmp"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: revit21
+Source: "deploy\{#RevitAppName}.addin"; DestDir: "{#RevitAddin21}"; Flags: ignoreversion; Components: revit21
+
+;REVIT 2022 ~~~~~~~~~~~~~~~~~~~
+Source: "deploy\2022\*"; DestDir: "{#RevitAddin22}"; Excludes: "*.pdb,*.xml,*.config,*.addin,*.tmp"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: revit22
+Source: "deploy\{#RevitAppName}.addin"; DestDir: "{#RevitAddin22}"; Flags: ignoreversion; Components: revit22
 
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
